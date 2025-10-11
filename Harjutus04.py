@@ -8,7 +8,7 @@
 #    Programm peaks seejärel arvutama, mitu täis kinkekasti saab teha ja mitu kingitust jääb üle. Kasuta täisarvulist jagamist (//) kinkekarpide arvu leidmiseks ja jäägi (%) operaatorit ülejäävate kingituste arvu leidmiseks.
 #    Kasuta veakontrolli ja vastuse vormindamist
 #    Näide:
-#	 9 = 1,4
+#     9 = 1,4
 #    Kasutaja sisestab: 23
 #    Programm väljastab: Saad teha 4 täis kinkekasti. Üle jääb 3 kingitust.
 
@@ -43,13 +43,13 @@ print(f"{kogus} raamatu hind soodustusega on {summa:0.2f}€.")
 
 #Aia pikkus
 
-#	Kirjuta programm, mis aitab aiapidajal arvutada aia ümbermõõtu.
-#	Aed on ristküliku kujuline. (a+b)*2 = P
-#	Programm peaks küsima kasutajalt kahe aiaosa pikkused meetrites ja seejärel arvutama aia kogupikkuse.
-#	Väljasta lause, kasutades f-string vormindamist.
-#	Näide:
-#	Kasutaja sisestab: 4 ja 5
-#	Programm väljastab: Aia kogupikkus on 18 meetrit.
+#    Kirjuta programm, mis aitab aiapidajal arvutada aia ümbermõõtu.
+#    Aed on ristküliku kujuline. (a+b)*2 = P
+#    Programm peaks küsima kasutajalt kahe aiaosa pikkused meetrites ja seejärel arvutama aia kogupikkuse.
+#    Väljasta lause, kasutades f-string vormindamist.
+#    Näide:
+#    Kasutaja sisestab: 4 ja 5
+#    Programm väljastab: Aia kogupikkus on 18 meetrit.
 
 #kasutaja sisestus ja muudan täisarvuks
 a = int(input("lisa külg 1: "))
