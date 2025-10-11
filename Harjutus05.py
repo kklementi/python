@@ -1,9 +1,32 @@
 #Karel Klementi 11.10.2025
 
 import random
+import turtle
 
-#Harjutus05.3+
 #Harjutus05.4
+
+#Mündiviskamise äraarvamine koos juhuslikkusega (and ja or)
+
+vastus = input("Kull või kiri?: ")
+mynt = random.randint(0,1)
+turtle.color("green")
+if mynt==0 and vastus=="kiri":
+    print("õige vastus")
+    turtle.circle(100)
+elif mynt==1 and vastus=="kull":
+    print("õige vastus")
+    turtle.circle(100)
+else:
+    print("vale vastus")
+    turtle.color("red")
+    turtle.circle(100)
+
+
+
+turtle.done()
+
+
+#Harjutus05.3
 
 #Mündiviskamise äraarvamine koos juhuslikkusega (and ja or)
 #    Kirjuta programm, mis simuleerib mündiviskamist. Programm genereerib juhusliku tulemuse – “kiri” või “kull”, kasutades random.randint(0,1) funktsiooni. Programmi koostamisel pead importima import random mooduli ja kasutama randint() funktsiooni, et valida kahe võimaliku tulemuse vahel. Näiteks, kui randint(0, 1) annab tulemuseks 0, siis võib see tähendada “kirja”, ja 1 võib tähendada “kulli”.
