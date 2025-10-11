@@ -1,5 +1,32 @@
 #Karel Klementi 09.10.2025
 
+import turtle
+
+#harjutus04.5
+#
+#Ringi pindala ja Turtle
+#    Kirjuta programm, mis kasutab Turtle graafikat joonistamaks ringi ning arvutab ja kuvab konsoolis ringi pindala ja ümbermõõdu.
+#    Programm küsib kasutajalt ringi raadiuse.
+#    Kasuta ** operaatorit raadiuse ruudu arvutamiseks ja π väärtusena 3.14.
+#    Lisa veakontroll, et kontrollida kasutaja sisestatud raadiuse korrektsust.
+#    Väljasta lause, kasutades f-string vormindamist ja ümardamist 2 komakohta
+#    Näide:
+#    Kasutaja sisestab: 5
+#    Programm väljastab konsoolis: Ringi pindala on 78.5 ja ümbermõõt on 31.4
+#    Turtle graafika joonistab vastava ringi
+
+try :
+    r = float(input("Ringi raadius r="))
+    s = 3.14 * r ** 2
+    p = 2 * 3.14 * r
+    print(f"Ringi pindala on {s:0.2f} ja ümbermõõt on {p:0.2f}")
+    turtle.circle(r)
+except:
+    print("Kontrolli sisestust!")
+
+
+turtle.done()
+
 #harjutus04.4
 #    Sa töötad kingipoes ja sinu ülesanne on pakkida kingitusi.
 #    Igasse kinkekarpi mahub täpselt 5 kingitust.
@@ -56,4 +83,5 @@ a = int(input("lisa külg 1: "))
 b = int(input("lisa külg 2: "))
 p = (a+b)*2
 print(f"Aia kogupikkus külgedega {a} ja {b} on {p} meetrit.")
+
 
