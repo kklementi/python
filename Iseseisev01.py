@@ -22,6 +22,7 @@ lause_keskosa = ". aasta liblikas on "
 lause = print(aasta, lause_keskosa, liblikas)
 print(lause)
 
+print("")
 #1.3 Pilved
     #Pilvede alumise pinna (aluse) kõrguse järgi liigitatakse pilvi ülemise, keskmise ja alumise kihi pilvedeks.
     #Ülemiste pilvede alus on kõrgemal kui 6 km, keskmistel pilvedel on 2-6 km kõrgusel,
@@ -35,6 +36,7 @@ if pilvede_alus > 6:
     print("Need on ülemised pilved")
 elif pilvede_alus <= 6:
     print("Need ei ole ülemised pilved")
+print("")
     
 #1.4 Bussid
     #Meil on vaja transportida teatud arv inimesi mingi arvu identsete bussidega.
