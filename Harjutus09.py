@@ -47,4 +47,7 @@ for i in ev_data:
             parim_hinnasuhe = km_tasu
             parim_auto = i[0]
 
+
 print(f"parim elektriauto: {parim_auto}")
+
+#poolik
